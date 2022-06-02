@@ -1,0 +1,28 @@
+
+@media screen and (min-width:250px) and (max-width:500px) {
+    
+    body{
+        background-color: #fff;
+    }
+    #navbar {
+        flex-direction: column;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        overflow: hidden;
+        height: 80px;
+    }
+    #training .items{
+        flex-direction: column;
+    }
+    #training .items .item{
+        width: 100%;
+    }
+    .courses .course{
+        width: 100%;
+        flex-direction: column;
+        background: rgba(0, 0, 0, .4);
+        overflow:scroll;
+    }
+}
+    
+

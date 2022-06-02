@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*id olduğu için nota değil # yazılır*/
+
+
+/*header section*/
+
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.75rem;
+    height: 70px;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: rgb(103, 103, 235);
+    border-radius: 4px;
+}
+
+
+/*home section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#home img {
+    max-width: 30%;
+    height: auto;
+    /*border radius oranı height bilinirseona göre verilir bilinmezse 100% yapılır*/
+    border-radius: 100%;
+}
+
+#home .name h2 {
+    margin-bottom: 00.75rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#training {
+    color: #fff;
+    padding: 1rem;
+}
+
+#training .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/*course bölümü hobilerim bölümü*/
+#courses {
+    color: #333;
+    padding: 1rem;
+}
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+ .course-image {
+    width: 50px;
+  margin-right: 0.5rem;
+  position: relative;
+}
+.courses .course .course-image img {
+    border-radius: 5px;
+}
+.course-image { 
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.paragraf{ 
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*contact*/
+
+#contact {
+    color: white;
+    padding: 1rem;
+}
+input{
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    
+}
+ #contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.asd {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.ul1 {
+    /*listedeki işaretlemeler kalkar*/
+    list-style: none;
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: 3rem;
+    font-size: 2.25rem;
+}
+.ul1:hover{
+    font-size: 2.75rem;
+}
